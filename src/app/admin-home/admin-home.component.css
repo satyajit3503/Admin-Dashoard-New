@@ -85,6 +85,10 @@
     text-align: center;
     border: none; /* Ensure no column borders */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
+   
+}
+.custom-table td{
+    height: 150px; 
 }
 
 /* Header Background Gradient */
@@ -95,12 +99,13 @@
 
 /* Row Styles */
 .custom-table tbody tr {
-    background: linear-gradient(to bottom, rgb(189, 109, 109), #74425d);
-    color: #fff; /* Add font color white */
+    background: linear-gradient(to bottom, rgb(228, 226, 226), #b8b4b6);
+
     border-radius: 20px; /* Increase border radius for rounded edges */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Default shadow effect */
     overflow: hidden; /* Ensures rounded corners are visible */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
+    /* height: 50px; */
 }
 
 /* Row Hover Effect */
